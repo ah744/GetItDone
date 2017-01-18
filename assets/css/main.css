@@ -349,7 +349,19 @@
 		text-transform: uppercase;
 	}
 
-	input[type="text"],
+	input[type="text"] {
+		background: transparent;
+		border-radius: 4px;
+		border: solid 0px #ffffff;
+		color: inherit;
+		display: block;
+		outline: 0;
+		padding: 0 1rem;
+		text-decoration: none;
+		width: 100%;
+
+	}
+
 	input[type="password"],
 	input[type="email"],
 	input[type="tel"],
